@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             if(age.isEmpty()){
-                tilNames.error = getString(R.string.main_activity_validation_age)
+                tilAge.error = getString(R.string.main_activity_validation_age)
                 return@setOnClickListener
             }
 
