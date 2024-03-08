@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MarketApp</string>
+    <string name="main_activity_title">Bienvenidos</string>
+    <string name="activity_main_help_names">Nombres Completos</string>
+    <string name="main_activity_help_age">Numero de documento</string>
+    <string name="main_activity_register">Registrar</string>
+    <string name="main_activity_validation_names">Debe ingresar sus nombres</string>
+    <string name="main_activity_validation_age">Debe ingresar su edad</string>
+</resources>
