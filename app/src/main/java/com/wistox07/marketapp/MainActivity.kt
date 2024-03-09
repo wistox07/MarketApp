@@ -1,5 +1,6 @@
 package com.wistox07.marketapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -32,6 +33,16 @@ class MainActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
+            val bundle = Bundle()
+            bundle.putString("KEY_NAMES",names)
+            bundle.putString("KEY_AGE", age)
+
+            val intent = Intent(this,DestinationActivity::class.java)
+            intent.putExtras(bundle)
+            startActivity(intent)
+
         }
+
+
     }
 }
