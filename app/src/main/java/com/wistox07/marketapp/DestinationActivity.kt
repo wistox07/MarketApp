@@ -9,11 +9,20 @@ class DestinationActivity : AppCompatActivity() {
         setContentView(R.layout.activity_destination)
 
         val bundle = intent.extras
-        val names = bundle?.getString("KEY_NAMES")
-        val age = bundle?.getString("KEY_AGE")
+        bundle?.let {bundleLibreNulos ->
+            val names = bundleLibreNulos.getString("KEY_NAMES")
+            val age = bundleLibreNulos.getString("KEY_AGE")
+            println(names)
+            println(age)
+        }
 
-        println(names)
-        println(age)
+
+        /*
+            val names = bundle.getString("KEY_NAMES") ?: "Desconocido"
+            val age = bundle.getString("KEY_AGE") ?: "Desconocido"
+         */
+
+
 
 
     }
