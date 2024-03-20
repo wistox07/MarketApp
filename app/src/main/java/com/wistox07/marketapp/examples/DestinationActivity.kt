@@ -1,7 +1,8 @@
-package com.wistox07.marketapp
+package com.wistox07.marketapp.examples
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.wistox07.marketapp.R
 
 class DestinationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

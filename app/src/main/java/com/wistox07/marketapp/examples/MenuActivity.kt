@@ -1,9 +1,9 @@
-package com.wistox07.marketapp
+package com.wistox07.marketapp.examples
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import androidx.fragment.app.Fragment
+import com.wistox07.marketapp.R
 import com.wistox07.marketapp.databinding.ActivityMenuBinding
 
 class MenuActivity : AppCompatActivity() {

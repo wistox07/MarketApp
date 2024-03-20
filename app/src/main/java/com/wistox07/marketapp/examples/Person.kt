@@ -1,4 +1,4 @@
-package com.wistox07.marketapp
+package com.wistox07.marketapp.examples
 
 public class Person(var names: String="", var age: Int = 0) {
 

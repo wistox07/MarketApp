@@ -1,10 +1,12 @@
-package com.wistox07.marketapp
+package com.wistox07.marketapp.examples
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.wistox07.marketapp.R
+
 class TabTwoFragment : Fragment() {
 
     override fun onCreateView(

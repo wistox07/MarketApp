@@ -1,4 +1,4 @@
-package com.wistox07.marketapp
+package com.wistox07.marketapp.examples
 
 import android.content.Context
 import android.widget.Toast

@@ -1,4 +1,4 @@
-package com.wistox07.marketapp
+package com.wistox07.marketapp.examples
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,9 +6,9 @@ import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.widget.Button
-import android.widget.Toast
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
+import com.wistox07.marketapp.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
             }
 
 
-            val intent = Intent(this,DestinationActivity::class.java).apply {
+            val intent = Intent(this, DestinationActivity::class.java).apply {
                 putExtras(bundle)
             }
             startActivity(intent)

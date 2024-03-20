@@ -1,4 +1,4 @@
-package com.wistox07.marketapp
+package com.wistox07.marketapp.examples
 
 fun main(){
     val persona = Person("Fernando", 33)
