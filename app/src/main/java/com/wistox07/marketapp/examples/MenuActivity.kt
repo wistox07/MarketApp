@@ -25,7 +25,7 @@ class MenuActivity : AppCompatActivity() {
             addFragment()
         }
 
-        binding.btnTab1.setOnClickListener {
+        binding.btnTab2.setOnClickListener {
             fragment = TabTwoFragment()
             addFragment()
         }
